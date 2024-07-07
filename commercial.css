@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(234, 232, 232);
+}
+.transactions {
+  z-index: -10;
+}
+.heading {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px 0px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+.container {
+  display: flex;
+  margin: 20px 100px;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 100px;
+}
+.box1 {
+  margin: 0px 50px 0px 0px;
+}
+label {
+  text-shadow: 2px 2px rgb(200, 199, 199);
+}
+.sales-input,
+.expenses-input {
+  border: 2px solid brown;
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin: 0px 0px 25px 0px;
+}
+input {
+  width: 475px;
+  height: 30px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  padding: 3px 10px;
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+}
+.btn {
+  width: 80px;
+  height: 35px;
+  padding: 5px 5px 5px 5px;
+  font-size: large;
+  border: 1px solid purple;
+  border-radius: 8px;
+  background-color: transparent;
+  color: brown;
+}
+.btn:hover {
+  color: black;
+  background-color: brown;
+}
+.sales-head,
+.Expenses-head,
+.total,
+.title {
+  text-shadow: 2px 2px 8px gray;
+}
+.sales-head,
+.Expenses-head {
+  font-size: 30px;
+  margin: 0px 5px 5px 8px;
+}
+.title {
+  font-size: 25px;
+  margin: 25px 0px;
+  text-align: center;
+}
+.total {
+  font-size: 30px;
+  margin: 0px 0px 15px 0px;
+}
+#salesAndAmountValues,
+#expensesAndAmountValues {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 200px;
+}
+.topic {
+  margin: 0px 0px 10px 0px;
+  text-shadow: 2px 2px rgb(200, 199, 199);
+}
+.head {
+  margin: 0px 80px;
+}
+.icons {
+  display: flex;
+}
+.sales,
+.expenses {
+  border: 2px solid;
+  margin: 30px 0px 0px 0px;
+  display: none;
+}
+.total-transactions {
+  margin: 0px 0px 50px 80px;
+}
+.totalsalesAndExpenses {
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+.total-sales,
+.total-expenses,
+.total-balance {
+  margin: 0px 100px 0px 0px;
+}
+.value {
+  margin: 10px 0px 0px 0px;
+}
+.sales-feedback,
+.expense-feedback {
+  height: 25px;
+  margin: 0px 0px;
+  font-size: 20px;
+  padding: 5px 7px;
+  color: rgb(205, 0, 0);
+}
+
+
+
+
+
+
+ 
+
+

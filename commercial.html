@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commercial App</title>
+    <link rel="stylesheet" href="commercial.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="transactions">
+      <h1 class="heading">Transactions of a day</h1>
+      <div class="container">
+        <div class="box1">
+          <div class="inputSalesAndExpenses">
+            <div class="sales1">
+              <h2 class="sales-head">Sales</h2>
+              <div class="sales-feedback" id="sales-feedback">
+                Sales Feedback
+              </div>
+              <div class="sales-input">
+                <form action="" id="sales-box">
+                  <div class="sales-name">
+                    <label for="salesName">Enter Sold Goods Name</label><br />
+                    <input type="text" id="sales-name" />
+                  </div>
+                  <div class="Sales-amount">
+                    <label for="salesAmount">Enter Sold Goods Amount</label
+                    ><br />
+                    <input type="number" id="sales-amount" />
+                  </div>
+                  <button class="btn-1 btn" id="btn-1" type="submit">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="expense">
+              <h2 class="Expenses-head">Expenses</h2>
+              <div class="expense-feedback" id="expense-feedback">
+                Expense Feedback
+              </div>
+              <div class="expenses-input">
+                <form action="" id="expenses-box">
+                  <div class="expense-name">
+                    <label for="expenseName">Enter Expense</label><br />
+                    <input type="text" id="expense-name" />
+                  </div>
+                  <div class="Expense-amount">
+                    <label for="expenseAmount">Enter Expense Amount</label
+                    ><br />
+                    <input type="number" id="expense-amount" />
+                  </div>
+                  <button class="btn-2 btn" id="btn-2" type="submit">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="boxes">
+          <div class="total-transactions">
+            <div class="totalsalesAndExpenses">
+              <div class="total-sales">
+                <h2 class="total1 total">Total Sales</h2>
+                <img
+                  src="icons8-total-sales-50.png"
+                  alt="Increasing sales"
+                  class="image1"
+                />
+                <h2 class="value1 value" id="value1">Rs 0</h2>
+              </div>
+              <div class="total-expenses">
+                <h2 class="total2 total">Total Expenses</h2>
+                <img src="icons8-expenses-50.png" alt="" class="image2" />
+                <h2 class="value2 value" id="value2">Rs 0</h2>
+              </div>
+              <div class="total-balance">
+                <h2 class="total3 total">Total Balance</h2>
+                <img src="icons8-balance-50.png" alt="" class="image3" height="60px" width="60px" />
+                <h2 class="value3 value" id="value3">Rs 0</h2>
+              </div>
+
+              
+
+            </div>
+          </div>
+          <div class="salesAndExpenses">
+            <div class="sales">
+              <h3 class="title">Today's Sales</h3>
+              <div id="salesAndAmountValues" class="list-container"></div>
+            </div>
+            <div class="expenses">
+              <h3 class="title">Today's Expenses</h3>
+              <div id="expensesAndAmountValues" class="list-container"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="commercial.js"></script>
+  </body>
+</html>
